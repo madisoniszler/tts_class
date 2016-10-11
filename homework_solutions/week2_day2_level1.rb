@@ -9,7 +9,7 @@ name = gets.chomp.downcase
 
 if student_names.include?(name)
   puts "Hey student #{name.capitalize}"
-else puts "Good Morning, Prof #{name.capitalize}"
+elsif teacher_names puts "Good Morning, Prof #{name.capitalize}"
 end
 
 # Number 2 - Create a program that will roll a dice twice and output the numbers.
